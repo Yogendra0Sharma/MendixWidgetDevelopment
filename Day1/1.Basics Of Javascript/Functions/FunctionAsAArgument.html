@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+// we can pass a function as a argument to another function.
+// in JS function is a first class object
+
+
+var addTwoNumber = function(a,b,callback){
+    return callback(a,b);
+}
+
+addTwoNumber(2,3,function(n1,n2){
+    console.log("Sum: " ,n1+n2);
+});
+
+</script>
+</html>
