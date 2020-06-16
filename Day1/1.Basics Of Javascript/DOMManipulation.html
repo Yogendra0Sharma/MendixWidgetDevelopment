@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .democlass {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+<script>
+    //Adding new element
+    var headerEl = document.createElement("h1");  //create element node
+    var newText = document.createTextNode('Node added using DOM manipulation.'); //create text node
+    headerEl.appendChild(newText); //add text node to element node
+    var position = document.getElementById("root"); //find the position where you want to add the node
+    position.appendChild(headerEl); //add element in that position
+
+    // Add Attribute to Element
+    headerEl.setAttribute("class", "democlass");
+
+    document.createAttribute
+    // Update Element value
+    headerEl.innerHTML = "Updated Element";
+</script>
+</html>
