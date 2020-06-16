@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>List of Items</h1>
+    <ul>
+        <li id="one">First </li>
+        <li class="two">Second</li>
+        <li class="three">Third</li>
+    </ul>
+</body>
+<script>
+        document.getElementById('one').style.color="red"; //change font color
+        document.getElementsByTagName("h1")[0].style.color = "green"; //change font color
+        document.getElementsByClassName("three")[0].style.color="blue";
+        document.querySelectorAll("li.two")[0].style.color = "pink";
+</script>
+</html>
