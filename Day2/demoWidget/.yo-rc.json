@@ -1,0 +1,10 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "Yogendra Sharma 2020",
+      "license": "Apache 2",
+      "author": "Yogendra Sharma",
+      "boilerplate": "appstore"
+    }
+  }
+}
